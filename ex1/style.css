@@ -1,0 +1,32 @@
+html{
+    background-color:black;
+}
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.box{
+    padding:4px;
+    background: linear-gradient(113deg,#eeaf61,#fb9062,#ee5d6c,#ce4993,#6a0d83);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+button{
+    border:none;
+    padding:2rem 3.5rem;
+    background-color:#000;
+    color:#cbcbcb;
+    font-size:2rem;
+    font-weight:bold;
+    letter-spacing:3px;
+}
+.box:hover{
+    background: linear-gradient(-113deg,#eeaf61,#fb9062,#ee5d6c,#ce4993,#6a0d83);
+}
+.box:hover button{
+   font-size:2.1rem; 
+}
+
