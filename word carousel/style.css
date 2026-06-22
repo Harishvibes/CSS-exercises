@@ -1,0 +1,39 @@
+.con{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.con h1{
+    font-size:4rem;
+}
+.con::after{
+    content:"Cricket";
+    background-color:#348d5f;
+    color:#ffefb3;
+    margin-left:1.5rem;
+    font-size:4.5rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold;
+    padding:0.5rem;
+    border-radius:10px;
+    animation:5s linear infinite word;
+    box-shadow:2px 2px 2px 1px black;
+}
+@keyframes word {
+    0%{
+        content:"Cricket";
+    }
+    25%{
+        content:"Anime";
+    }
+    50%{
+        content:"Briyani";
+    }
+    75%{
+        content:"Travel";
+    }
+    100%{
+        content:"Cricket";
+    }
+}
