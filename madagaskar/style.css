@@ -1,0 +1,28 @@
+body{
+    display:flex;
+    justify-content:center;
+    padding-top:10rem;
+    background-color:black;
+}
+.con{
+    height:300px;
+    width:calc((300px *3)/2);
+    display:grid;
+    border:0.1px solid rgb(213, 213, 213);
+    display:flex;
+    
+}
+
+.first{
+    width:150px;
+    background-color: white;
+}
+.red{
+    width:300px;
+    height:150px;
+    background-color:red;
+}
+.green{
+    height:150px;
+    background-color:green;
+}

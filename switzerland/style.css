@@ -1,0 +1,28 @@
+body{
+    display:flex;
+    justify-content:center;
+    padding-top:10rem;
+    
+}
+.con{
+    height:300px;
+    width:300px;
+    display:flex;;
+    border:0.1px solid rgb(213, 213, 213);
+    background-color:red;
+    justify-content:center;
+    align-items:center;
+    padding:50px;
+    position:relative;
+}
+.vertical{
+   width:60px;
+   height:200px;
+   background-color:white;
+   position:absolute;
+}
+.horizn{
+    width:200px;
+    height:60px;
+    background-color:white;
+}
